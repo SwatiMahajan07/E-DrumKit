@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+  font-family: 'Prompt', sans-serif;
+  background-color: #BFFFF0;
+  color: #2B2B2B;
+}
+
+h1 {
+  font-size: 7rem;
+  margin-top: 40px;
+}
+
+h1 img {
+  width: 100px;
+}
+
+button {
+  width: 150px;
+  height: 150px;
+  margin: auto 10px 10px;
+  background-size: cover;
+  font-size: 4rem;
+  background-color: #006778;
+  border-radius: 20%;
+  color: white;
+  border: none;
+  box-shadow: inset 0 0 5px 5px #00AFC1;
+}
+
+button:hover, .button-hover {
+  background-color: #AC7D88;
+  box-shadow: inset 0 0 5px 5px #85586F;
+}
+
+div .keys {
+  display: inline-block;
+  width: 150px;
+  margin: 0 10px;
+  font-size: 4rem;
+}
+
+span {
+  visibility: hidden;
+}
+
+.keys p {
+  margin: 0 auto 100px;
+}
+
+.high-tom {
+  background-image: url("images/highTom.png");
+}
+
+.low-tom {
+  background-image: url("images/lowTom.png");
+}
+
+.floor-tom1 {
+  background-image: url("images/floorTom1.png");
+}
+
+.floor-tom2 {
+  background-image: url("images/floorTom2.png");
+}
+
+.snare-drum {
+  background-image: url("images/snareDrum.png");
+}
+
+.cymbal {
+  background-image: url("images/cymbal.png");
+}
+
+.bass-drum {
+  background-image: url("images/bassDrum.png");
+}
